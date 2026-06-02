@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" Content="width device-width, initial-scale 1.0">
+    <title>Sito_portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+  <img src="sito-prohs.jpeg" alt="Sito Akpabio" class="profile-img" width="104" height="142">
+  <h1>Hi, I'm Sitoabasi Emmanuel Akpabio</h1>
+      <p>HTML/CSS | Python | Canva | PixelLab | Content Writing</p>
+      <p class="tagline">SIWES placement seeker. I learn fast and I showup.</p>
+      <a href="#projects" class="btn">See My Work</a>
+  </header>
+
+    
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I'm a Computer Science Undergaduate in my third year.
+            I'm intermidate in HTML, CSS, Python basics, MATLAB, Canva, and pixelLab.
+            I also write friction and marketing copy.
+            I'm Currently learning Javascript, Figma for UI/UX, and python For ML.
+            I'm looking for an IT placement Where I can Contribute while growing on the job, paid or unpaid.
+        </p>
+        </section>
+        <!-- Skills-->
+        <section id="skills">
+         <h2>Skills</h2>
+            <div class="skills-grid">
+             <div class="skill">HTML + CSS</div>
+             <div class="skill">Python Basics</div>
+             <div class="skill">MATLAB</div>
+             <div class="skill">Canva + PixelLab</div>
+             <div class="skill"> Content/Copy Writing</div>
+             <div class="skill">Friction Writing</div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+         <h2> Projects</h>
+
+
+            <div class="project">
+                <img src="project1.jpg" alt="Portfolio Website">
+                <h3>This portfolio Site</h3>
+                <p>Built with HTML + CSS. Mobile responsive and hosted freely on Nelify.</p>
+                <a href ="#" class="btn-small">View Code</a>
+            </div>
+
+
+            <div class="project">
+                <img src="project2.jpg alt="Tech Blog Graphic">
+                <h3>Tech Tips for SMEs</h3>
+                <p>Wrote + designed a blog post on saving money with 4G routers. Canva + writing+ HTML.</p>
+                <a href="#" class="btn-small">Read Article</a>
+            </div>
+
+            <div class="project">
+                <img src="project3.jpg" alt="Python Tool">
+                <h3>CGPA Calculator</h3>
+                <p>Simple Python tool for Students. Take grade + units and returns CGPA.</p>
+                <a href="#" class="btn-small">See Code</a>
+            </div>
+        </section>
+
+    <!-- Contact -->
+    <footer id="contact">
+        <h2>Let's Work</h2>
+        <p>Open to IT support, web updates, graphic design, or content roles.</p>
+        <p>Email: <a href="mailto:akpabiositoabasi@gmail.com">akpabiositoabasi@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/2349110292951">+2349110292951</a></p>
+        </footer>
+  </body>
+</html>
